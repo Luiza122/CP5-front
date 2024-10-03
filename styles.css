@@ -9,20 +9,28 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: linear-gradient(135deg, #f9f9f9, #eaeaea); /* Gradiente de fundo suave */
+    background: linear-gradient(135deg, #f9f9f9, #eaeaea); 
 }
 
+
+.logo {
+    height: 50px; /* Ajuste a altura do logo conforme necessário */
+    width: auto;  /* Mantém a proporção do logo */
+    margin-right: 10px; /* Adiciona um espaçamento à direita, se necessário */
+}
+
+
 header.hero {
-    background: linear-gradient(135deg, #ff6b81, #ffda63); /* Gradiente vibrante */
+    background: linear-gradient(135deg, #ff6b81, #ffda63); 
     color: white;
     text-align: center;
     padding: 80px 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-    border-bottom: 5px solid #ff6b81; /* Borda inferior colorida */
+    border-bottom: 5px solid #ff6b81; 
 }
 
 nav.navbar {
-    background-color: rgba(74, 74, 74, 0.9); /* Fundo escuro com transparência */
+    background-color: rgba(74, 74, 74, 0.9); 
     transition: background-color 0.3s;
 }
 
@@ -34,11 +42,11 @@ nav.navbar .nav-link {
     color: white;
     transition: color 0.3s;
     padding: 10px 15px;
-    font-weight: bold; /* Negrito para destacar */
+    font-weight: bold; 
 }
 
 nav.navbar .nav-link:hover {
-    color: #ffda63; /* Mudança de cor ao passar o mouse */
+    color: #ffda63; 
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 5px;
 }
@@ -53,20 +61,20 @@ h2 {
     color: #ff6b81;
     margin-bottom: 20px;
     font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra no texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .main-content {
     flex: 1;
     padding: 20px;
     background-color: #ffffff;
-    border-radius: 10px; /* Cantos mais arredondados */
+    border-radius: 10px; 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s; /* Transição para animação */
+    transition: transform 0.3s; 
 }
 
 .main-content:hover {
-    transform: translateY(-5px); /* Levanta um pouco ao passar o mouse */
+    transform: translateY(-5px); 
 }
 
 .banner {
@@ -74,31 +82,31 @@ h2 {
     padding: 60px 20px;
     color: white;
     border-radius: 10px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra no texto */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .footer {
-    background-color: #343a40; /* Cor de fundo do rodapé */
-    color: white; /* Cor do texto */
-    text-align: center; /* Alinhamento central */
+    background-color: #343a40; 
+    color: white; 
+    text-align: center;
     padding: 20px 0;
-    position: relative; /* Posição relativa para o footer */
-    margin-top: auto; /* Faz com que o rodapé se mova para o final da página */
+    position: relative; 
+    margin-top: auto;
 }
 
 .footer p {
-    margin: 0; /* Remove a margem padrão do parágrafo */
-    font-size: 0.9rem; /* Tamanho da fonte */
+    margin: 0;
+    font-size: 0.9rem; 
 }
 
 .footer a {
-    color: #ffda63; /* Cor dos links no rodapé */
-    margin: 0 10px; /* Espaçamento entre os links */
-    text-decoration: none; /* Remove o sublinhado */
-    transition: color 0.3s; /* Transição suave para a cor */
-    font-weight: bold; /* Negrito para destaque */
+    color: #ffda63; 
+    margin: 0 10px; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+    font-weight: bold; 
 }
 
 .footer a:hover {
-    color: #ff6b81; /* Cor ao passar o mouse */
+    color: #ff6b81; 
 }
